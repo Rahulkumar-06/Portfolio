@@ -1,26 +1,51 @@
 import React from "react";
+import profilePic from "./assets/croppedphotos.jpg";
+import phoneIcon from "./assets/phone-1.png";
+import gmailLogo from "./assets/gmail_logo.png";
+import linkedinLogo from "./assets/linkedin-logo.png";
+import githubLogo from "./assets/gitHub_logo.png";
+
 import "./Home.css"; 
+import javalogo from "./assets/java_logo.png";
+import htmllogo from "./assets/html_logo.png";
+import csslogo from "./assets/css_logo.png";
+import jslogo from "./assets/javascript_logo.png";
+import springbootlogo from "./assets/spring_boot_logo.svg";
+import springsecuritylogo from "./assets/spring-security_logo.svg";
+import springdatalogo from "./assets/spring-data_logo.svg";
+import Reactjs from "./assets/react.svg";
+import mysqllogo from "./assets/mysql_logo.png";
+import postgresqllogo from "./assets/postgresql-logo.png";
+import mongologo from "./assets/mongo-db_logo.png";
+import Awslogo from "./assets/aws_logo.png";
+import gitlogo from "./assets/gitHub_logo.png";
+import dockerlogo from "./assets/docker_logo.png";
+import bootstraplogo from "./assets/bootstrap_logo.png";
+import postmanlogo from "./assets/postman-Logo.png";
+import intelijlogo from "./assets/intellij_logo.png";
+import vscodelogo from "./assets/visual-studio_logo.png";
+
 
 function Home() {
   const techStack = [
-    { name: "Java", logo: "java_logo.png" },
-    { name: "HTML", logo: "html_logo.png" },
-    { name: "CSS", logo: "css_logo.png" },
-    { name: "JavaScript", logo: "javascript_logo.png" },
-    { name: "Spring Boot", logo: "spring_boot_logo.svg" },
-    { name: "Spring Security", logo: "spring-security_logo.svg" },
-    { name: "Spring Data JPA", logo: "spring-data_logo.svg" },
-    { name: "ReactJS", logo: "react.svg" },
-    { name: "MySQL", logo: "mysql_logo.png" },
-    { name: "PostgreSQL", logo: "postgresql-logo.png" },
-    { name: "MongoDB", logo: "mongo-db_logo.png" },
-    { name: "AWS", logo: "aws_logo.png" },
-    { name: "Git", logo: "gitHub_logo.png" },
-    { name: "Docker", logo: "docker_logo.png" },
-    { name: "BootStrap", logo : "bootstrap_logo.png"},
-    { name: "Postman", logo: "postman-Logo.png" },
-    { name: "IntelliJ IDEA", logo: "intellij_logo.png" },
-    { name: "VS Code", logo: "visual-studio_logo.png" }
+    { name: "Java", logo: javalogo },
+    { name: "HTML", logo: htmllogo },
+    { name: "CSS", logo: csslogo },
+    { name: "JavaScript", logo: jslogo },
+    { name: "Spring Boot", logo: springbootlogo },
+    { name: "Spring Security", logo: springsecuritylogo },
+    { name: "Spring Data JPA", logo: springdatalogo },
+    { name: "ReactJS", logo: Reactjs },
+    { name: "MySQL", logo: mysqllogo },
+    { name: "PostgreSQL", logo: postgresqllogo },
+    { name: "MongoDB", logo: mongologo },
+    { name: "AWS", logo: Awslogo },
+    { name: "Git", logo: gitlogo },
+    { name: "Docker", logo: dockerlogo },
+    { name: "BootStrap", logo : bootstraplogo},
+    { name: "Postman", logo: postmanlogo },
+    { name: "IntelliJ IDEA", logo: intelijlogo },
+    { name: "VS Code", logo: vscodelogo }
   ];
 
   return (
@@ -29,7 +54,7 @@ function Home() {
       <div className="text-center mb-5" >
         <div className="imgblock">
         <img
-          src="src/assets/croppedphotos.jpg"
+          src={profilePic}
           className="rounded-circle mb-3 border border-light"
           alt="Profile"
           width="250"
@@ -86,7 +111,7 @@ function Home() {
           {techStack.map((tech, index) => (
             <div key={index} className="col-4 col-sm-3 col-md-2 text-center">
               <img
-                src={`src/assets/${tech.logo}`}
+                src={tech.logo}
                 alt={tech.name}
                 className="img-fluid tech-logo mb-2"
               />
@@ -160,7 +185,7 @@ function Home() {
 
    <div className="d-flex justify-content-center align-items-center mb-3">
     <img
-      src="src/assets/phone-1.png"
+      src={phoneIcon}
       alt="Phone"
       className="me-2 contact-icon"
     />
@@ -168,7 +193,7 @@ function Home() {
   </div>
     <div className="d-flex justify-content-center align-items-center mb-3">
     <img
-      src="src/assets/gitHub_logo.png"
+      src={githubLogo}
       alt="GitHub"
       className="me-2 contact-icon"
     />
@@ -183,7 +208,7 @@ function Home() {
   </div>
   <div className="d-flex justify-content-center align-items-center mb-3">
     <img
-      src="src/assets/gmail_logo.png"
+      src={gmailLogo}
       alt="Email"
       className="me-2 contact-icon"
     />
@@ -194,7 +219,7 @@ function Home() {
 
   <div className="d-flex justify-content-center align-items-center mb-3">
     <img
-      src="src/assets/linkedin-logo.png"
+      src={linkedinLogo}
       alt="LinkedIn"
       className="me-2 contact-icon"
     />
