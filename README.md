@@ -1,12 +1,30 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website showcasing my skills, projects, and experience as a Full Stack Java Developer.  
+Built with modern web technologies for a clean, responsive, and interactive experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **About Me** section introducing who I am and my professional background.
+- **Skills** section highlighting technical and soft skills.
+- **Projects** section with live demos and GitHub links.
+- **Contact** form for easy communication.
+- Fully **responsive design** for mobile, tablet, and desktop.
+- Optimized for performance and SEO.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+**Frontend:** HTML, CSS, JavaScript, ReactJS, Bootstrap  
+**Backend (optional if you have one):** Java, Spring Boot  
+**Database (optional if you use one):** MySQL, PostgreSQL  
+**Version Control:** Git, GitHub
+
+---
+
+##Contact
+####Name: Rahulkumar C
+#####Email: rahulkumarc679@gmail.com
