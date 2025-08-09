@@ -25,6 +25,6 @@ Built with modern web technologies for a clean, responsive, and interactive expe
 
 ---
 
-##Contact
-####Name: Rahulkumar C
-#####Email: rahulkumarc679@gmail.com
+## Contact
+#### Name: Rahulkumar C
+##### Email: rahulkumarc679@gmail.com
