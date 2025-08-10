@@ -3,8 +3,7 @@ import profilePic from "./assets/croppedphotos.jpg";
 import phoneIcon from "./assets/phone-1.png";
 import gmailLogo from "./assets/gmail_logo.png";
 import linkedinLogo from "./assets/linkedin-logo.png";
-import githubLogo from "./assets/gitHub_logo.png";
-
+import githubLogo from "./assets/github.png";
 import "./Home.css"; 
 import javalogo from "./assets/java_logo.png";
 import htmllogo from "./assets/html_logo.png";
@@ -72,7 +71,7 @@ function Home() {
 </div>
        <div className="mb-5">
         <h3 className="mb-4 text-center">About Me</h3>
-        <div >
+        <div id="glasscard">
        <p className="about-text" style={{ textIndent: "60px"}}>
           I’m a passionate and results-driven Full Stack Java Developer with a strong
   foundation in backend development using Java and Spring Boot, complemented by
@@ -189,7 +188,7 @@ function Home() {
       alt="Phone"
       className="me-2 contact-icon"
     />
-    <span>8870822514</span>
+    <span>+91 8870822514</span>
   </div>
     <div className="d-flex justify-content-center align-items-center mb-3">
     <img

@@ -24,12 +24,20 @@ a:visited {
   text-decoration: none;
 }
 .glass-card{
-  border-radius: 12px;
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.048);
   margin-right: 18px;
   padding-left: 20px;
   padding-top: 10px;
+  padding-bottom: 12px;
+}
+#glasscard{
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.014);
+  margin-right: 18px;
+  margin-left: 18px;
+  padding-left: 20px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
-
 
