@@ -18,9 +18,7 @@ Built with modern web technologies for a clean, responsive, and interactive expe
 
 ##  Tech Stack
 
-**Frontend:** HTML, CSS, JavaScript, ReactJS, Bootstrap  
-**Backend (optional if you have one):** Java, Spring Boot  
-**Database (optional if you use one):** MySQL, PostgreSQL  
+**Frontend:** HTML, CSS, JavaScript, ReactJS, Bootstrap    
 **Version Control:** Git, GitHub
 
 ---
