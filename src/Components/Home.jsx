@@ -168,9 +168,23 @@ function Home() {
             </a>
           </div>
         </div>
-          <div>
-                                        
+          <div className="card mb-3 shadow-sm">
+          <div className="glass-card">
+            <h5 className="card-title">Secure Military Communication System</h5>
+            <p className="card-text">
+             The Secure Military Communication System is a full-stack real-time communication platform designed to 
+             provide secure message transmission for military operations.It uses encrypted JWT authentication, 
+             secure password hashing, and WebSocket STOMP-based real-time communication.
+            </p>
+            <a 
+              href="https://github.com/Rahulkumar-06/SecureChatApplicationFullstack.git"
+              target="_blank"
+              className="btn btn-sm btn-outline-secondary"
+            >
+              View on GitHub
+            </a>
           </div>
+        </div>
      <div className="text-center">
   <h3 className="mb-4">Contact</h3>
 
