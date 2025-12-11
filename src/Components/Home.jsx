@@ -15,8 +15,8 @@ import springdatalogo from "./assets/spring-data_logo.svg";
 import Reactjs from "./assets/react.svg";
 import mysqllogo from "./assets/mysql_logo.png";
 import postgresqllogo from "./assets/postgresql-logo.png";
-import mongologo from "./assets/mongo-db_logo.png";
-import Awslogo from "./assets/aws_logo.png";
+import Websoket from "./assets/Websoket.png";
+import Jwtlogo from "./assets/json-web-token.png";
 import gitlogo from "./assets/gitHub_logo.png";
 import dockerlogo from "./assets/docker_logo.png";
 import bootstraplogo from "./assets/bootstrap_logo.png";
@@ -37,8 +37,8 @@ function Home() {
     { name: "ReactJS", logo: Reactjs },
     { name: "MySQL", logo: mysqllogo },
     { name: "PostgreSQL", logo: postgresqllogo },
-    { name: "MongoDB", logo: mongologo },
-    { name: "AWS", logo: Awslogo },
+    { name: "WebSoket", logo: Websoket },
+    { name: "JWT", logo: Jwtlogo },
     { name: "Git", logo: gitlogo },
     { name: "Docker", logo: dockerlogo },
     { name: "BootStrap", logo : bootstraplogo},
@@ -72,33 +72,25 @@ function Home() {
        <div className="mb-5">
         <h3 className="mb-4 text-center">About Me</h3>
         <div id="glasscard">
-       <p className="about-text" style={{ textIndent: "60px"}}>
-          I’m a passionate and results-driven Full Stack Java Developer with a strong
-  foundation in backend development using Java and Spring Boot, complemented by
-  modern frontend skills in ReactJS, HTML, CSS, and JavaScript. I enjoy building
-  secure, scalable, and user-friendly web applications by combining clean code
-  practices with creative problem-solving.
-  <br></br>
-  <br></br>
-  I’m skilled in implementing authentication and authorization using Spring
-  Security, managing data persistence with Spring Data JPA, and integrating
-  relational (MySQL, PostgreSQL) and non-relational (MongoDB) databases. On the
-  frontend, I focus on crafting responsive and visually appealing interfaces
-  using Bootstrap and reusable UI components.
-  <br></br>
-  <br></br>
-  With experience in AWS cloud deployment — including ECS (Elastic Container
-  Service), ECR (Elastic Container Registry), and IAM (Identity and Access
-  Management) — I can deploy, manage, and secure applications in production
-  environments. I also have hands-on experience with Docker containerization and
-  version control through Git, ensuring that my projects are robust,
-  maintainable, and production-ready.
-  <br></br>
-  <br></br>
-  Proficient with developer tools such as Postman, IntelliJ IDEA, and VS Code,
-  I’m always eager to learn new technologies, contribute to challenging projects,
-  and collaborate with like-minded professionals to turn ideas into reality.
+      <p className="about-text" style={{ textIndent: "60px" }}>
+  I’m a passionate and results-driven Full Stack Java Developer with strong
+  expertise in Java, Spring Boot, Spring Security, JDBC, and Spring Data JPA.
+  I build secure, scalable, and user-friendly applications while following clean coding
+  and practical problem-solving principles. On the frontend, I work with ReactJS, HTML, CSS,
+  JavaScript, and Bootstrap to deliver responsive and modern UI components.
+  <br /><br />
+  I have hands-on experience working on real projects including a full CRUD application using Spring Boot
+  & JDBC, and a real-time chat application using WebSocket + STOMP with JWT-based authentication.
+  <br /><br />
+  I have hands-on experience with Docker containerization and version control through Git, ensuring that
+  my projects are robust, maintainable, and production-ready.
+  <br /><br />
+  With hands-on experience in Docker, Git, MySQL, PostgreSQL, Postman, IntelliJ IDEA, and VS Code —
+  along with strong knowledge of SQL queries, joins, indexing basics, and database design — I’m confident
+  in building and managing production-ready applications. I’m always eager to learn, take on challenging
+  roles, and collaborate with teams to bring impactful ideas to life.
 </p>
+
 </div>
 
       </div>
@@ -143,7 +135,7 @@ function Home() {
 
         <div className="card mb-3 shadow-sm">
           <div className="glass-card">
-            <h5 className="card-title">Thymeleaf + Spring Security App</h5>
+            <h5 className="card-title">Spring Security App</h5>
             <p className="card-text">
              A simple and secure web application built using Spring Boot, Spring Security, Thymeleaf, 
             and JPA that allows users to create, view, and manage content entries (like notes, blog posts,
