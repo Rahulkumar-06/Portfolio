@@ -23,6 +23,9 @@ import bootstraplogo from "./assets/bootstrap_logo.png";
 import postmanlogo from "./assets/postman-Logo.png";
 import intelijlogo from "./assets/intellij_logo.png";
 import vscodelogo from "./assets/visual-studio_logo.png";
+import linux from "./assets/linux_Logo.png";
+import Putty from "./assets/Putty_Logo.png";
+import winscp from "./assets/WinSCP_Logo.png";
 
 
 function Home() {
@@ -39,6 +42,9 @@ function Home() {
     { name: "PostgreSQL", logo: postgresqllogo },
     { name: "WebSoket", logo: Websoket },
     { name: "JWT", logo: Jwtlogo },
+    { name: "Linux", logo: linux },
+    { name: "PuTTY", logo: Putty },
+    { name: "WinSCP", logo: winscp},
     { name: "Git", logo: gitlogo },
     { name: "Docker", logo: dockerlogo },
     { name: "BootStrap", logo : bootstraplogo},
@@ -89,6 +95,9 @@ function Home() {
   along with strong knowledge of SQL queries, joins, indexing basics, and database design — I’m confident
   in building and managing production-ready applications. I’m always eager to learn, take on challenging
   roles, and collaborate with teams to bring impactful ideas to life.
+</p><p>
+  <div> Linux Environment: Ubuntu (Command Line & Server Usage) </div>
+  <div> Remote Tools: PuTTY (SSH), WinSCP (Secure File Transfer) </div>
 </p>
 
 </div>
