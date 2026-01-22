@@ -238,12 +238,12 @@ function Home() {
       className="me-2 contact-icon"
     />
     <a
-      href="http://www.linkedin.com/in/rahulkumarchellamuthu"
+      href="http://www.linkedin.com/in/rahulkumardev1"
       target="_blank"
       rel="noopener noreferrer"
       className="text-decoration-none"
     >
-      linkedin.com/rahulkumarchellamuthu
+      linkedin.com/rahulkumardev1
     </a>
   </div>
 
