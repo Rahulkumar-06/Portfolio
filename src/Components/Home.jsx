@@ -26,6 +26,7 @@ import vscodelogo from "./assets/visual-studio_logo.png";
 import linux from "./assets/linux_Logo.png";
 import Putty from "./assets/Putty_Logo.png";
 import winscp from "./assets/WinSCP_Logo.png";
+import Youtube from "./assets/youtube-Logo.png"
 
 
 function Home() {
@@ -244,6 +245,21 @@ function Home() {
       className="text-decoration-none"
     >
       linkedin.com/rahulkumardev1
+    </a>
+  </div>
+  <div className="d-flex justify-content-center align-items-center mb-3">
+    <img
+      src={Youtube}
+      alt="LinkedIn"
+      className="me-2 contact-icon"
+    />
+    <a
+      href="https://www.youtube.com/@RunTime_Reality"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-decoration-none"
+    >
+      YouTube
     </a>
   </div>
 
