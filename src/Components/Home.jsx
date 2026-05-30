@@ -26,7 +26,8 @@ import vscodelogo from "./assets/visual-studio_logo.png";
 import linux from "./assets/linux_Logo.png";
 import Putty from "./assets/Putty_Logo.png";
 import winscp from "./assets/WinSCP_Logo.png";
-import Youtube from "./assets/youtube-Logo.png"
+import Youtube from "./assets/youtube-Logo.png";
+import mern from "./assets/mern.png";
 
 
 function Home() {
@@ -39,6 +40,7 @@ function Home() {
     { name: "Spring Security", logo: springsecuritylogo },
     { name: "Spring Data JPA", logo: springdatalogo },
     { name: "ReactJS", logo: Reactjs },
+    { name : "MERN",   logo : mern },
     { name: "MySQL", logo: mysqllogo },
     { name: "PostgreSQL", logo: postgresqllogo },
     { name: "WebSoket", logo: Websoket },
